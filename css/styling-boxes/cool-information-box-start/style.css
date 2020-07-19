@@ -3,3 +3,20 @@ html {
 }
 
 /* Your CSS below here */
+
+p {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 2.5;
+  background-color: red;
+  background-image: linear-gradient(127deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.3030345927433473) 100%);
+  font-size: 18px;
+  color: red;
+  text-shadow: 1px 1px 2px black;
+  border: 1px solid black;
+  border-radius:10px;
+  box-shadow: inset 2px 2px 3px rgba(255,255,255,0.6),
+  inset -2px -2px 3px rgba(0,0,0,0.6),
+  2px 2px 5px black;
+}
