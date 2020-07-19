@@ -16,6 +16,16 @@ article {
   height: 297mm;
   margin: 20px auto;
   position: relative;
+
+  background: 
+  url(top-image.png) top center no-repeat, 
+  url(bottom-image.png) bottom center no-repeat,
+  linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.2) 100%) top center / 100% 30% no-repeat,
+  linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.2) 100%) bottom center / 100% 30% no-repeat,
+  white;
+
+  border-block-start: 1mm solid crimson;
+  border-block-end: 1mm solid crimson;
 }
 
 address {
@@ -36,6 +46,9 @@ h1 {
   padding: 44px 0;
   color: white;
   text-shadow: 1px 1px 1px black;
+
+  background-image: url(logo.png);
+  filter: drop-shadow(0 0 0.75rem black);
 }
 
 /* Your CSS below here */
